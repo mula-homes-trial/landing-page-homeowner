@@ -36,3 +36,233 @@
     transform: rotate(360deg);
   }
 }
+
+/* pure launcher site */ 
+
+.center-side {
+  box-sizing: border-box;
+
+  position: absolute;
+  top: 10%;
+  height: 100%;
+  left: 10%;
+  right: 10%;
+
+  background: #D9D9D9;
+  }
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* tester stuff */
+.app-screen {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  justify-content:center;
+  align-items: center;
+}
+
+.right-sign-up-bg {
+  position: absolute;
+  left: 50%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #F6F7FB;
+}
+
+.right-sign-up-realestatepic {
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  top: 37.88%;
+  bottom: 15.4%;
+  max-width: 90%;
+  height: auto;
+
+}
+
+.welcome {
+  position: absolute;
+  left: 8.59%;
+  right: 50%;
+  top: 8.59%;
+  bottom: 75.65%;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+
+  color: #353646;
+}
+
+.
+
+.welcome-login {
+  position: absolute;
+  left: 8.59%;
+  right: 50%;
+  top: 25.93%;
+  bottom: 72.04%;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+
+  color: #353646;
+}
+
+.username-wrapper {
+  position: absolute;
+  left: 8.61%;
+  right: 62.38%;
+  top: 32.13%;
+  bottom: 62.96%;
+}
+
+.username-input-wrapper {
+  position: absolute;
+  justify-content:center;
+  align-items: center;
+  left: 9.5%;
+  right: 70.42%;
+  top: 33.24%;
+  bottom: 63.98%;
+}
+
+.password-wrapper {
+  position: absolute;
+  left: 8.61%;
+  right: 62.38%;
+  top: 39.91%;
+  bottom: 55.19%;
+}
+
+.accept-wrapper {
+  position: absolute;
+  left: 8.61%;
+  right: 62.38%;
+  top: 47%;
+  bottom: 47%;
+}
+
+.signup-button-wrapper {
+  position: absolute;
+  left: 8.61%;
+  right: 62.38%;
+  top: 56%;
+  bottom: 40%;
+  display: flex;
+  justify-content: center;
+
+  background: #393D46;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  font-size: 15px;
+  background: #393D46;
+  border: 1px solid #393D46 ;
+  color: #fff;
+  padding: 10px 20px;
+  position: absolute;
+  left:0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+
+.login-text {
+  color: #fff;
+  font-size: 15px;
+}
+
+
+.new-user {
+  position: absolute;
+  left: 15.62%;
+  right: 60.23%;
+  top: 93.52%;
+  bottom: 3.98%;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 27px;
+  /* identical to box height */
+
+
+  color: #3E3C50;
+}
+
+/* tester stuff ^^^  */
+.app {
+  font-family: sans-serif;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #f8f9fd;
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+
+input[type="submit"]:hover {
+  background: #393D46;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.title-h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
